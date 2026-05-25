@@ -37,12 +37,12 @@ export default function AuthenticatedLayout({ header, children }) {
                                     StripePay
                                 </NavLink>
 
-                                <NavLink
+                                {/* <NavLink
                                     href={route("paypal")}
                                     active={route().current("paypal")}
                                 >
                                     Paypal
-                                </NavLink>
+                                </NavLink> */}
                             </div>
                         </div>
 
